@@ -1,0 +1,26 @@
+#Goods {
+    height: 200px;
+    width:  200px;
+    text-align:center;
+	margin: 20px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#Goods img {
+    height: 100px;
+    width:  150px;
+    margin: 0px;
+}
+
+#Goods p {
+	height: 20px;
+    width: 200px;
+    margin: 0px;
+    position: relative;
+}
+
+#GoodsViewer {
+    text-align:center;
+}

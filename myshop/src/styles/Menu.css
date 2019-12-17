@@ -1,0 +1,33 @@
+#Menu ul{
+    display: none;
+    background-color: #f90;
+    position: absolute;
+    top: 100%;
+}
+##Menu li:hover ul { display: block; }
+#Menu, #Menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#Menu {
+    height: 30px;
+    background-color: #666;
+    padding-left: 25px;
+    min-width: 470px;
+}
+#Menu li {
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+#Menu li a {
+	display: block;
+    padding: 6px;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;     
+}
+
